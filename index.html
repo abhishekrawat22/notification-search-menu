@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="An idea to show menu, search, and notifications.">
+    <meta name="keywords" content="Notification, Search, Menu, Hamburger, Responsive, Web, HTML, CSS, JavaScript, Animation, Keyframes, CSS Animation">
+    <meta name="author" content="Abhishek Rawat">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>  
+    <div class="frame">
+      <div class="center">
+        <div class="details-wrapper">
+          <div class="details-header">
+            <div class="menu-wrapper">
+              <input type="checkbox" id="open-menu" />
+              <label for="open-menu" class="menu">
+                <div class="menu-icon">
+                  <span class="line line-with-circle"></span><span class="line"></span>
+                </div>
+              </label>
+              <div class="details-menu">
+              <div>
+                <i class="fas fa-tachometer-alt"></i>
+                <p>Dashboard</p>
+              </div>
+              <div>
+                <i class="fas fa-user"></i>
+                <p>Profile</p>
+              </div>
+              <div>
+                <i class="fas fa-bell"></i>
+                <p>Notifications</p>
+              </div>
+              <div>
+                <i class="fas fa-comments"></i>
+                <p>Messages</p>
+              </div>
+              <div>
+                <i class="fas fa-cog"></i>
+                <p>Settings</p>
+              </div>
+            </div>
+            </div>
+            <h1>Notifications</h1>
+            <div class="search-wrapper">
+              <input type="checkbox" id="open-search" />
+              <label for="open-search" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></label>
+              <input type="text" class="search-input" name="search" placeholder="Search ..." />
+            </div>
+          </div>
+          <div class="details-body">
+            <div class="notification-wrapper">
+              <div class="notification">
+                <small>9:24 AM</small>
+                <p><strong>John Walker</strong> posted a photo on your wall.</p>
+              </div>
+              <div class="notification">
+                <small>8:19 AM</small>
+                <p><strong>Alice Parker</strong> commented your last post.</p>
+              </div>
+              <div class="notification">
+                <small>Yesterday</small>
+                <p><strong>Luke Wayne</strong> added you as friend.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
